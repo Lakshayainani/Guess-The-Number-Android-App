@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         TextView HelpText = findViewById(R.id.textView);
         EditText userinput = findViewById(R.id.userInput);
         Button check = findViewById(R.id.Check);
-        userinput.setHint("defautlt: 100, enter a value greater than 100");
+        userinput.setHint("default: 100, enter a value greater than 100");
         HelpText.setText("Enter the Upper Range of the Number you want me to guess!");
         check.setText("Start!");
         //randomNumber = r.nextInt(101);
